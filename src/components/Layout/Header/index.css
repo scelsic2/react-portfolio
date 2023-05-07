@@ -1,14 +1,10 @@
-* {
-  text-decoration: none;
-}
-
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--lighter);
     color: var(--darkest);
-    border-bottom: 2px solid var(--darkest);
+    border-bottom: 2px solid var();
   }
   
   nav {
@@ -18,15 +14,7 @@ header {
     align-items: flex-end;
   }
   
-  .h4nav, h1 {
+  nav > h4, h1 {
     margin: 10px;
     padding: 10px;
-  }
-
-  .link {
-    color: var(--darkest);
-  }
-
-  :visited {
-    color: var(--darkest);
   }
