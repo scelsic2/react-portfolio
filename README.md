@@ -2,24 +2,22 @@
 
 ## Description
 
-<!-- Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn? -->
-
-## Table of Contents (Optional)
+Cassandra Scelsi's Professional Portfolio, featuring apps and contact information.
 
 ## Usage
 
-<!-- Provide instructions and examples for use. Include screenshots as needed.
+About Me
+![about me screenshot](./src/assets/images/s1.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Portfolio
+![portfolio me screenshot](./src/assets/images/s2.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ``` -->
+Contact Me
+![contact me screenshot](./src/assets/images/s3.png)
+
+Resume
+![resume me screenshot](./src/assets/images/s4.png)
+
 
 ## Credits
 

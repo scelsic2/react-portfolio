@@ -2,6 +2,7 @@ import Header from './Header'
 import AboutMe from './About-Me';
 import Contact from './Contact'
 import Resume from './Resume'
+import Footer from './Footer'
 
 import './index.css'
 
@@ -27,6 +28,7 @@ const Layout = () => {
     return <>
         <Header showTheView={setView}/>
         { showView() }
+        <Footer />
     </>
 }
 

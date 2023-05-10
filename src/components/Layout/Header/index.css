@@ -7,7 +7,7 @@ header {
     border-bottom: 2px solid var(--darkest);
   }
   
-  nav {
+  header > nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -28,3 +28,8 @@ header {
     background-color: var(--darker);
     border-radius: 10px;
   }
+
+  /* .active-nav {
+    background-color: var(--darker);
+    border-radius: 10px;
+  } */
