@@ -1,8 +1,12 @@
 :root {
-  --lightest: #FFEAD2;
+  --lightest: #FCE85C;
+  --lighter: rgb(107 188 230);
+  --darker: rgb(165 239 239);
+  --darker: rgb(2 13 75);
+  /* --lightest: #FFEAD2;
   --lighter: #DBDFEA;
   --darker: #acb1d6;
-  --darkest: #626F93;
+  --darkest: #626F93; */
   /* --lightest: #FCFFB2;
   --lighter: #FFD3A3;
   --darker: #B6EAFA;
@@ -42,7 +46,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--lightest);
+  /* background-color: var(--lightest); */
+  background-image: url('./assets/images/background.jpg');
+  background-size: auto;
 }
 
 code {

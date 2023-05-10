@@ -4,36 +4,41 @@
     --darker: rgb(165 239 239);
     --darkest: rgb(2 13 75);
 }
-
-.about-me-container {
+.portfolio-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.about-me {
+
+.app-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px;
-    padding: 50px;
+    flex-direction: column;
     background-color: var(--lighter);
+    margin: 20px;
+    padding: 20px;
     border-radius: 10px;
     border-top: 3px solid var(--darker);
     border-left: 3px solid var(--darker);
     border-right: 3px solid var(--darkest);
     border-bottom: 3px solid var(--darkest);
-    max-width: 1000px;
-}
-
-.avatar > img {
-    height: 150px;
-    border-radius: 10px;
-}
-
-.bio {
-    padding-left: 50px;
-    font-weight: bold;
-    font-size: large;
+    height: fit-content;
+    text-align: center;
     color: var(--darkest);
+}
+
+.app-photo > a > img {
+    width: 450px;
+}
+
+.app-photo > h4 {
+    padding-bottom: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
 }
