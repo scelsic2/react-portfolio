@@ -3,7 +3,7 @@ import password from '../../../assets/images/password.jpg'
 import quiz from '../../../assets/images/quiz.jpg'
 import weather from '../../../assets/images/weather.jpg'
 import fido from '../../../assets/images/fido.jpg'
-import work from '../../../assets/images/work.jpg'
+import sote from '../../../assets/images/sote.png'
 import note from '../../../assets/images/note.jpg'
 
 import { useState, useEffect } from "react";
@@ -66,8 +66,8 @@ function Portfolio(props) {
                     <a href='https://warm-inlet-30953.herokuapp.com/'><img src={sote} alt='sote app screenshot' /></a>
                 </div>
                 <div className='links'>
-                    <a href='https://warm-inlet-30953.herokuapp.com/'>Work Day Scheduler App</a>
-                    <a href='https://github.com/AuTangen/Slide_Off_The_Earth'>Work Day Scheduler Repo</a>
+                    <a href='https://warm-inlet-30953.herokuapp.com/'>Slide Off The Earth App</a>
+                    <a href='https://github.com/AuTangen/Slide_Off_The_Earth'>Slide Off The Earth Repo</a>
                 </div>
             </div>
 
