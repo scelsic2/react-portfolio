@@ -62,12 +62,12 @@ function Portfolio(props) {
 
             <div className='app-container'>
                 <div className='app-photo'>
-                    <h4>Work Day App</h4>
-                    <a href='https://scelsic2.github.io/calendar-app/'><img src={work} alt='work day app screenshot' /></a>
+                    <h4>Slide Off The Earth</h4>
+                    <a href='https://warm-inlet-30953.herokuapp.com/'><img src={sote} alt='sote app screenshot' /></a>
                 </div>
                 <div className='links'>
-                    <a href='https://scelsic2.github.io/calendar-app/'>Work Day Scheduler App</a>
-                    <a href='https://github.com/scelsic2/calendar-app'>Work Day Scheduler Repo</a>
+                    <a href='https://warm-inlet-30953.herokuapp.com/'>Work Day Scheduler App</a>
+                    <a href='https://github.com/AuTangen/Slide_Off_The_Earth'>Work Day Scheduler Repo</a>
                 </div>
             </div>
 
